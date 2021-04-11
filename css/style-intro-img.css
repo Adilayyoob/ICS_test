@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+# Intro img animation
+--------------------------------------------------------------*/
+
+
+#red{
+  animation: redMove 2s infinite;
+}
+
+@keyframes redMove{
+  0%{fill: red;}
+  33%{fill: white;}
+}
+
+#yellow{
+  animation: yellowMove 2s infinite;
+}
+
+@keyframes yellowMove{
+  33%{fill: yellow;}
+  66%{fill: white;}
+}
+
+#green{
+  animation: greenMove 2s infinite;
+}
+
+@keyframes greenMove{
+  66%{fill: green;}
+  100%{fill: white;}
+}
+
+svg{
+  width: 100%;
+}
